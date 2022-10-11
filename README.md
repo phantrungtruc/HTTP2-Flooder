@@ -1,4 +1,4 @@
-# http2-flooder
+# HTTP2-Flooder
 
 Trình ngập http2 mới, bị rò rỉ vì nhà phát triển cho biết tập lệnh của anh ấy tốt hơn tập lệnh của tôi
 
