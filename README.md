@@ -10,6 +10,4 @@ npm i http http2 crypto tls
 ```
 ---------------------------------------------------------------
 
->***python tls.py***
-
-Đặt proxy HTTP bên trong proxy.txt và tác nhân người dùng bên trong ua.txt
+>***Đặt proxy HTTP bên trong proxy.txt và tác nhân người dùng bên trong ua.txt***
