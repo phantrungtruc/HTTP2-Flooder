@@ -1,4 +1,4 @@
-# Hiberproxy bản dịch bởi Đậu Đậu
+# bản dịch bởi Đậu Đậu
 import urllib.request
 import re
 import random
