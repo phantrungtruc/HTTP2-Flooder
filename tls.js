@@ -54,7 +54,7 @@ class TlsBuilder {
 
     Alert(){
         console.log('  Đang attack\n');
-        console.log('  HTTP/2 Flood chỉnh sửa & biên dịch bởi Đậu Đậu');
+        console.log('  HTTP/2 Flood chỉnh sửa & biên dịch bởi Đậu Đậu\n');
     }
 
     http2TUNNEL(socket){
